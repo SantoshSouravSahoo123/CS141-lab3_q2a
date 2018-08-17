@@ -1,15 +1,23 @@
+// operating with variables
+
 #include<iostream>
 using namespace std;
-int main(){
-	int a=5;		// initial value = 5
-	int b(2);		// initial value = 2
-	int result;		// initial value
-//undetermined;
 
-	a = a + 3;
+int main()
+{
+	// declaring variables:
+	int a, b;
+	int result;
+
+	//process:
+	a = 5;
+	b = 2;
+	a = a + 1;
 	result = a - b;
+
+	// print out the result:
 	cout << result;
 
+	// terminate the program:
 	return 0;
 }
-
